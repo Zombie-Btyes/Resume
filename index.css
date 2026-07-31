@@ -1,0 +1,83 @@
+#resume{
+    background:#f8fafc;
+    padding:10px 0px;
+}
+
+.resume-container{
+    /* max-width:1000px; */
+    margin:auto;
+    background:white;
+    border-radius:12px;
+    padding:50px;
+    box-shadow:0 10px 40px rgba(0,0,0,.08);
+}
+
+.resume-header{
+    text-align:center;
+    border-bottom:2px solid #e5e7eb;
+    padding-bottom:30px;
+    margin-bottom:40px;
+}
+
+.resume-header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.resume-header h2{
+    color:#2563eb;
+    font-size:1.4rem;
+    margin-bottom:20px;
+}
+
+.contact-info{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    color:#64748b;
+}
+
+.resume-section{
+    margin-bottom:50px;
+}
+
+.resume-section h3{
+    font-size:1.8rem;
+    border-left:5px solid #2563eb;
+    padding-left:15px;
+    margin-bottom:25px;
+}
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.skills-grid ul{
+    padding-left:20px;
+}
+
+.project,
+.experience,
+.education{
+    margin-bottom:30px;
+}
+
+.project h4,
+.experience h4,
+.education h4{
+    margin-bottom:5px;
+}
+
+.experience span,
+.education span{
+    color:#64748b;
+    display:block;
+    margin-bottom:10px;
+}
+
+.experience ul{
+    padding-left:20px;
+}
