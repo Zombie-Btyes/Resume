@@ -62,7 +62,7 @@
 .project,
 .experience,
 .education{
-    margin-bottom:30px;
+    margin-bottom:20px;
 }
 
 .project h4,
@@ -73,9 +73,11 @@
 
 .experience span,
 .education span{
-    color:#64748b;
+    color:#0a63df;
     display:block;
     margin-bottom:10px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
 }
 
 .experience ul{
