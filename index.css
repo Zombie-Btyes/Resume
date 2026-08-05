@@ -38,9 +38,9 @@
     color:#64748b;
 }
 
-.resume-section{
+/* .resume-section{
     margin-bottom:50px;
-}
+} */
 .resume-section p{
     margin:0 10px 20px;
 }
@@ -81,7 +81,7 @@
 .project,
 .experience,
 .education{
-    margin-bottom:50px;
+    margin-bottom:20px;
 }
 
 .project h4,
