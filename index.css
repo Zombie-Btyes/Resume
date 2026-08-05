@@ -41,6 +41,9 @@
 .resume-section{
     margin-bottom:50px;
 }
+.resume-section p{
+    margin:0 10px 20px;
+}
 
 .resume-section h3{
     font-size:1.8rem;
@@ -68,6 +71,7 @@
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
     gap:5px;
+    margin: 10px;
 }
 
 .skills-grid ul{
@@ -83,14 +87,14 @@
 .project h4,
 .experience h4,
 .education h4{
-    margin-bottom:5px;
+    margin: 10px 10px 10px;
 }
 
 .experience span,
 .education span{
     color:#0a91df;
     display:block;
-    margin-bottom:10px;
+    margin:0 10px 0 10px;
     font-weight: bold;
     font-family: Arial, sans-serif;
 }
