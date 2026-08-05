@@ -4,7 +4,7 @@
 }
 
 .resume-container{
-    max-width:1500px;
+    max-width:1800px;
     margin:auto;
     background:white;
     border-radius:12px;
@@ -20,7 +20,7 @@
 }
 
 .resume-header h1{
-    font-size:3rem;
+    font-size:2rem;
     margin-bottom:10px;
 }
 
