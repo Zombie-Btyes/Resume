@@ -14,9 +14,11 @@
 
 .resume-header{
     text-align:center;
-    border-bottom:2px solid #e5e7eb;
-    padding-bottom:10px;
-    margin-bottom:10px;
+    border-bottom:10px solid #e5e7eb;
+    border-radius:12px;
+    box-shadow:10px 10px 40px rgba(0,0,0,.08);
+    padding:10px 10px 10px;
+    margin-bottom:0 10px 0;
 }
 
 .resume-header h1{
@@ -77,8 +79,8 @@
 .skills-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:5px;
-    margin: 10px;
+    gap:10px;
+    margin: 0 10px 0;
 }
 
 .skills-grid ul{
@@ -86,7 +88,7 @@
 }
 
 .skill-category{
-    background:#dfdede;
+    background:#fffefe;
     padding:10px;
     border-radius:5px;
     box-shadow:0 5px 15px rgba(0,0,0,.05);
